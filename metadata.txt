@@ -1,19 +1,18 @@
-# This file contains metadata for your plugin. Since 
-# version 2.0 of QGIS this is the proper way to supply 
-# information about a plugin. The old method of 
-# embedding metadata in __init__.py will 
-# is no longer supported since version 2.0.
-
-# This file should be included when you package your plugin.
-# Mandatory items:
-
 [general]
 name=GeoBarcelona
 qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
 description=Search and zoom to any address in Barcelona city
 version=1.0
 author=Javier Casado
 email=javicasnov@hotmail.com
+tracker=https://github.com/javicasnov/GeoBarcelona/issues
+repository=https://github.com/javicasnov/GeoBarcelona
+homepage=https://github.com/javicasnov/GeoBarcelona
+icon=icon.png
+experimental=False
+deprecated=False
+tags=geocoder, geocoding, locator, filter, barcelona, catalunya, spain, españa, api, rest, restful, webservice, search, address, location, adreça, direccion, buscador, cercador, calle, street, carrer, zoom
 
 about= GeoBarcelona allows to search and zoom to any address in Barcelona city, using the RESTful web service "GeoBcn" (https://w33.bcn.cat/GeoBcn) provided by the Barcelona City Council.
     Two ways of use:
@@ -30,24 +29,7 @@ about= GeoBarcelona allows to search and zoom to any address in Barcelona city, 
     •	Versión reducida dentro de la barra de búsqueda de QGIS, permitiendo una búsqueda rápida de dirección.
     •	Versión completa en panel. Permite buscar cualquier dirección con diferentes niveles de zoom. Está previsto añadir mas funcionalidades.
 
-tracker=https://github.com/javicasnov/GeoBarcelona/issues
-repository=https://github.com/javicasnov/GeoBarcelona
-
-# End of mandatory metadata
-
-# Recommended items:
 
 # Uncomment the following line and add your changelog:
 # changelog=
-
-# Tags are comma separated with spaces allowed
-tags=geocoder, geocoding, locator, filter, barcelona, catalunya, spain, españa, api, rest, restful, webservice, search, address, location, adreça, direccion, buscador, cercador, calle, street, carrer, zoom
-
-homepage=https://github.com/javicasnov/GeoBarcelona
-icon=icon.png
-# experimental flag
-experimental=False
-
-# deprecated flag (applies to the whole plugin, not just a single version)
-deprecated=False
 
